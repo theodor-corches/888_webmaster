@@ -1,0 +1,277 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+html {
+    position: relative;
+    /* width: min-content; */
+}
+body {
+    margin: 0px;
+    /* min-height: 100%;
+    max-height: 100%;
+    max-width: 100%; */
+    width: 100%;
+}
+
+#header{
+    position: relative;
+}
+
+#topLeft {
+    position: absolute;
+    top: 170px;
+    left: 160px;
+  }
+
+#mainImg{
+    /* height: 100%; */
+}
+
+.mainText{
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.green{
+    color:#00ff04;
+}
+
+.white{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#mainText1{
+    font-size: 40px;
+}
+
+#mainText2{
+    font-size: 20px;
+}
+
+#mainText3{
+    font-size: 50px
+}
+
+#mainText4{
+    font-size: 20px;
+}
+
+#joinButton{
+    background-color: transparent;
+    width: fit-content;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #00ff04;
+    color: #00ff04;
+}
+
+#paymentMethods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 235, 235);
+}
+
+#paymentText{
+    /* font-weight: lighter; */
+}
+
+#paymentImg{
+    width: 20%;
+}
+
+#promotions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: center;
+}
+
+#promotionsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#promotionsTitleText{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#underBar{
+    font-size: 30px;
+}
+
+#promotionsText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#banners{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.bannersGroup{
+    display: flex;
+    align-items: center;
+    /* width: 30%; */
+    position: relative;
+    text-align: center;
+}
+
+.banner{
+    margin: 5px;
+}
+
+#bannerText1{
+    background-color: black;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 86%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#bannerText2{
+    background-color: black;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 86%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding-left: 7.5em;
+    padding-right: 7em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
+
+#bannerText3{
+    background-color: black;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 86%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding-left: 8em;
+    padding-right: 7.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#bannerText4{
+    background-color: black;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 86%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding-left: 11em;
+    padding-right: 11em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#morePromo{
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: small;
+    display: flex;
+    align-self: flex-end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+}
+
+#footerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    flex-direction: column;
+}
+
+#footerTitleText{
+    font-size: 30px;
+}
+
+#footerUnderBar{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#footerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+}
+
+#jackpot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#jackpotAmount{
+    background-color: black;
+    font-size: 30px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+  @media only screen and (max-device-width: 420px) {
+    .bannersGroup{
+        display: flex;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+    } 
+
+  }
